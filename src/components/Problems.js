@@ -71,18 +71,6 @@ const Problems = () => {
           ]}
         />
       </Col>
-      <Col>
-        <Button
-          type="primary"
-          icon={<EditOutlined />}
-          style={{ marginRight: "50px" }}
-        >
-          {" "}
-          <Link smooth to="#contact" scroll={(el) => scrollWithOffset(el)}>
-            Empieza ahora
-          </Link>
-        </Button>
-      </Col>
     </Row>
   );
 };

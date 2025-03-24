@@ -24,7 +24,7 @@ const Home = () => {
       <div>
         <Row
           justify={"end"}
-          style={{ backgroundColor: "white", padding: "10px" }}
+          style={{ backgroundColor: "white", padding: "3px" }}
         >
           <Col>
             <FacebookFilled
@@ -69,7 +69,6 @@ const Home = () => {
         </div>
 
         <Services />
-        <What />
 
         <Problems />
         <div id="benefits">
@@ -91,7 +90,6 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    height: "100%",
     padding: "0 24px",
   },
   logo: {

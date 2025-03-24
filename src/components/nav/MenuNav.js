@@ -154,22 +154,9 @@ const MenuNav = () => {
 
           <Col style={{ marginTop: window.innerWidth < 900 && "-22px" }}>
             <Button
-              type={location.hash === "#contact" ? "primary" : "link"}
-              style={{
-                ...styles.btn,
-                color: location.hash === "#contact" ? "white" : "black",
-              }}
-            >
-              <Link smooth to="#contact" scroll={(el) => scrollWithOffset(el)}>
-                Contacto
-              </Link>
-            </Button>
-          </Col>
-          <Col style={{ marginTop: window.innerWidth < 900 && "-22px" }}>
-            <Button
               type={"primary"}
               style={{ ...styles.btn, marginLeft: "10px" }}
-              onClick={() => window.open("http://186.64.113.30:4200/")}
+              onClick={() => window.open("https://app.move4it.cl/")}
               icon={<UserOutlined />}
             >
               Portal Cliente
