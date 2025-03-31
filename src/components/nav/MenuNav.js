@@ -168,7 +168,7 @@ const MenuNav = () => {
           <Button
             type={"primary"}
             style={{ ...styles.btn, marginLeft: "10px" }}
-            onClick={() => navigate("#portal")}
+            onClick={() => window.open("https://app.move4it.cl/")}
             icon={<UserOutlined />}
           >
             Portal Cliente
