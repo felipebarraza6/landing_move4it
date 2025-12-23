@@ -5,16 +5,17 @@ const { Title } = Typography;
 const Services = () => {
   return (
     <Row
+      className="section-fade-in"
       justify={window.innerWidth > 900 ? "space-between" : "center"}
       align={"middle"}
       style={{
         padding: "10px 10px 50px 10px",
         background:
-          "linear-gradient(90deg, rgba(205,205,205,1) 0%, rgba(205,205,205,1) 20%, rgba(210,210,210,1) 31%, rgba(237,237,237,1) 62%, rgba(205,205,205,1) 88%)",
+          "linear-gradient(135deg, rgba(10, 95, 224, 0.05) 0%, rgba(10, 140, 207, 0.08) 50%, rgba(18, 227, 194, 0.05) 100%)",
       }}
     >
       <Col span={24}>
-        <Title style={{ textAlign: "center", marginBottom: "30px" }}>
+        <Title style={{ textAlign: "center", marginBottom: "30px", color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>
           Valores
         </Title>
       </Col>

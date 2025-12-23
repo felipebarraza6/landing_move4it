@@ -7,6 +7,7 @@ const { Title, Paragraph } = Typography;
 const Who = () => {
   return (
     <Row
+      className="section-fade-in"
       justify={"space-evenly"}
       align={"middle"}
       style={{
@@ -20,7 +21,7 @@ const Who = () => {
         xl={7}
         style={{ marginRight: window.innerWidth > 900 && "20px" }}
       >
-        <Title style={{ textAlign: "center" }}>¿Qué es Move4it?</Title>
+        <Title style={{ textAlign: "center", color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>¿Qué es Move4IA?</Title>
 
         <Paragraph
           style={{
@@ -53,9 +54,9 @@ const Who = () => {
               style={{
                 width: window.innerWidth > 900 ? "90%" : "300px",
                 margin: "10px",
-                border: "0.1px solid #ffffff",
-                boxShadow:
-                  "inset 0px 0px 2px rgba(0, 0, 0, 0.9), -20px 20px 20px 0px rgba(0, 0, 0, 0.3)",
+                border: "1px solid rgba(10, 95, 224, 0.1)",
+                boxShadow: "0 4px 12px rgba(10, 95, 224, 0.08)",
+                borderRadius: "12px",
               }}
             >
               <Row>
@@ -80,9 +81,9 @@ const Who = () => {
                 marginTop: window.innerWidth > 900 ? "0px" : "30px",
                 width: window.innerWidth > 900 ? "90%" : "300px",
                 margin: "10px",
-                border: "0.0px solid black",
-                boxShadow:
-                  "inset 0px 0px 2px rgba(0, 0, 0, 0.9), -20px 20px 20px 0px rgba(0, 0, 0, 0.3)",
+                border: "1px solid rgba(10, 95, 224, 0.1)",
+                boxShadow: "0 4px 12px rgba(10, 95, 224, 0.08)",
+                borderRadius: "12px",
               }}
             >
               <Row>

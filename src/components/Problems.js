@@ -33,8 +33,8 @@ const Problems = () => {
       style={{ padding: "50px", paddingBottom: "100px" }}
     >
       <Col>
-        <Title style={{ textAlign: "center" }}>
-          ¿Listo para vivir la experiencia Move4it?
+        <Title style={{ textAlign: "center", color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>
+          ¿Listo para vivir la experiencia Move4IA?
         </Title>
       </Col>
       <Col span={24} style={{ marginTop: "50px" }}>

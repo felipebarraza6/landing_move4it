@@ -102,10 +102,14 @@ const MenuNav = () => {
         <>
           <Col>
             <Button
-              type={location.hash === "" ? "primary" : "link"}
+              type={location.hash === "" ? "primary" : "text"}
               style={{
                 ...styles.btn,
-                color: location.hash === "" ? "white" : "black",
+                color: location.hash === "" ? "white" : "white",
+                fontWeight: location.hash === "" ? 600 : 400,
+                border: location.hash === "" ? "none" : "none",
+                background: location.hash === "" ? "rgba(255, 255, 255, 0.2)" : "transparent",
+                backdropFilter: location.hash === "" ? "blur(10px)" : "none",
               }}
             >
               <Link smooth to="#">
@@ -115,23 +119,31 @@ const MenuNav = () => {
           </Col>
           <Col>
             <Button
-              type={location.hash === "#what" ? "primary" : "link"}
+              type={location.hash === "#what" ? "primary" : "text"}
               style={{
                 ...styles.btn,
-                color: location.hash === "#what" ? "white" : "black",
+                color: "white",
+                fontWeight: location.hash === "#what" ? 600 : 400,
+                border: "none",
+                background: location.hash === "#what" ? "rgba(255, 255, 255, 0.2)" : "transparent",
+                backdropFilter: location.hash === "#what" ? "blur(10px)" : "none",
               }}
             >
               <Link smooth to="#what" scroll={(el) => scrollWithOffset(el)}>
-                ¿Qué es Move4it?
+                ¿Qué es Move4IA?
               </Link>
             </Button>
           </Col>
           <Col>
             <Button
-              type={location.hash === "#benefits" ? "primary" : "link"}
+              type={location.hash === "#benefits" ? "primary" : "text"}
               style={{
                 ...styles.btn,
-                color: location.hash === "#benefits" ? "white" : "black",
+                color: "white",
+                fontWeight: location.hash === "#benefits" ? 600 : 400,
+                border: "none",
+                background: location.hash === "#benefits" ? "rgba(255, 255, 255, 0.2)" : "transparent",
+                backdropFilter: location.hash === "#benefits" ? "blur(10px)" : "none",
               }}
             >
               <Link smooth to="#benefits" scroll={(el) => scrollWithOffset(el)}>
@@ -141,10 +153,14 @@ const MenuNav = () => {
           </Col>
           <Col>
             <Button
-              type={location.hash === "#faq" ? "primary" : "link"}
+              type={location.hash === "#faq" ? "primary" : "text"}
               style={{
                 ...styles.btn,
-                color: location.hash === "#faq" ? "white" : "black",
+                color: "white",
+                fontWeight: location.hash === "#faq" ? 600 : 400,
+                border: "none",
+                background: location.hash === "#faq" ? "rgba(255, 255, 255, 0.2)" : "transparent",
+                backdropFilter: location.hash === "#faq" ? "blur(10px)" : "none",
               }}
               onClick={FAQ}
             >
@@ -155,7 +171,15 @@ const MenuNav = () => {
           <Col style={{ marginTop: window.innerWidth < 900 && "-22px" }}>
             <Button
               type={"primary"}
-              style={{ ...styles.btn, marginLeft: "10px" }}
+              style={{
+                ...styles.btn,
+                marginLeft: "10px",
+                background: "rgba(255, 255, 255, 0.25)",
+                border: "1px solid rgba(255, 255, 255, 0.3)",
+                backdropFilter: "blur(10px)",
+                fontWeight: 600,
+                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+              }}
               onClick={() => window.open("https://app.move4it.cl/")}
               icon={<UserOutlined />}
             >
@@ -167,7 +191,15 @@ const MenuNav = () => {
         <>
           <Button
             type={"primary"}
-            style={{ ...styles.btn, marginLeft: "10px" }}
+            style={{
+              ...styles.btn,
+              marginLeft: "10px",
+              background: "rgba(255, 255, 255, 0.25)",
+              border: "1px solid rgba(255, 255, 255, 0.3)",
+              backdropFilter: "blur(10px)",
+              fontWeight: 600,
+              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+            }}
             onClick={() => window.open("https://app.move4it.cl/")}
             icon={<UserOutlined />}
           >
@@ -179,12 +211,13 @@ const MenuNav = () => {
             style={{
               borderRadius: "10px",
               width: "60px",
-              backgroundColor: "white",
-              borderColor: "white",
+              backgroundColor: "rgba(255, 255, 255, 0.15)",
+              borderColor: "rgba(255, 255, 255, 0.2)",
+              backdropFilter: "blur(10px)",
             }}
           >
             <Menu.SubMenu
-              icon={<MenuOutlined style={{ color: "rgb(0, 21, 41)" }} />}
+              icon={<MenuOutlined style={{ color: "white", fontSize: "20px" }} />}
             >
               <Menu.Item key="1">
                 <Link smooth to="#">
@@ -193,7 +226,7 @@ const MenuNav = () => {
               </Menu.Item>
               <Menu.Item key="2">
                 <Link smooth to="#what" scroll={(el) => scrollWithOffset(el)}>
-                  ¿Qué es Move4it?
+                  ¿Qué es Move4IA?
                 </Link>
               </Menu.Item>
               <Menu.Item key="3">
@@ -228,6 +261,10 @@ const MenuNav = () => {
 const styles = {
   btn: {
     color: "white",
+    borderRadius: "8px",
+    padding: "6px 16px",
+    height: "auto",
+    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
   },
   menu: {
     width: window.innerWidth > 900 ? "100%" : "200px",

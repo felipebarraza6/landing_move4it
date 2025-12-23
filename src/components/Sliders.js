@@ -14,9 +14,10 @@ const Sliders = () => {
     window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
   };
   return (
-    <Carousel style={{ marginTop: "0px", zIndex: "0" }}>
+    <Carousel style={{ marginTop: "0px", zIndex: "0" }} autoplay effect="fade">
       <div>
         <div
+          className="section-fade-in"
           style={{
             margin: "0px",
             height: "400px",
@@ -25,6 +26,8 @@ const Sliders = () => {
             color: "#fff",
             backgroundImage: `url(${slide1})`,
             backgroundPosition: "center center",
+            backgroundSize: "cover",
+            position: "relative",
           }}
         >
           <Row>
@@ -33,13 +36,15 @@ const Sliders = () => {
                 level={2}
                 style={{
                   color: "white",
-                  backgroundColor: "#001529",
-                  opacity: window.innerWidth < 900 && "0.8",
+                  backgroundColor: "#052240",
+                  opacity: window.innerWidth < 900 && "0.9",
                   padding: "10px",
                   borderRadius: "10px",
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontWeight: 600,
                 }}
               >
-                <strong>Move4it:</strong> Transforma tu empresa, eleva tu equipo
+                <strong>Move4IA:</strong> Transforma tu empresa, eleva tu equipo
               </Title>
             </Col>
           </Row>
@@ -53,7 +58,8 @@ const Sliders = () => {
                   style={{
                     color: "white",
                     fontSize: "20px",
-                    backgroundColor: "#001529",
+                    backgroundColor: "#052240",
+                    opacity: "0.9",
                     padding: "10px",
                     borderRadius: "10px",
                   }}
@@ -66,8 +72,8 @@ const Sliders = () => {
                   style={{
                     color: "white",
                     fontSize: "20px",
-                    backgroundColor: "#001529",
-                    opacity: window.innerWidth < 900 && "0.8",
+                    backgroundColor: "#052240",
+                    opacity: window.innerWidth < 900 && "0.9",
                     padding: "10px",
                     borderRadius: "10px",
                   }}
@@ -84,7 +90,19 @@ const Sliders = () => {
                 marginLeft: window.innerWidth > 900 ? "30px" : "0px",
               }}
             >
-              <Button icon={<FormOutlined />} size="large" type="primary">
+              <Button 
+                icon={<FormOutlined />} 
+                size="large" 
+                type="primary"
+                style={{
+                  marginTop: "20px",
+                  height: "48px",
+                  padding: "0 32px",
+                  fontSize: "16px",
+                  fontWeight: 600,
+                  boxShadow: "0 4px 16px rgba(18, 227, 194, 0.4)",
+                }}
+              >
                 <Link
                   smooth
                   to="#contact"

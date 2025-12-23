@@ -18,7 +18,7 @@ const Contact = () => {
             ></iframe>
           </Col>
           <Col xs={24} lg={12} xl={12} style={{ padding: "50px" }}>
-            <Title level={2}>Contacto</Title>
+            <Title level={2} style={{ color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>Contacto</Title>
             <Paragraph style={{ textIndent: "10px" }}>
               Estamos aquí para escucharte y responder cualquier consulta. Tu
               bienestar es nuestra prioridad, así que no dudes en ponerte en
@@ -87,7 +87,7 @@ const Contact = () => {
       ) : (
         <>
           <Col xs={24} lg={12} xl={12} style={{ padding: "50px" }}>
-            <Title level={2}>Contacto</Title>
+            <Title level={2} style={{ color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>Contacto</Title>
             <Paragraph style={{ textIndent: "10px" }}>
               Estamos aquí para escucharte y responder cualquier consulta. Tu
               bienestar es nuestra prioridad, así que no dudes en ponerte en

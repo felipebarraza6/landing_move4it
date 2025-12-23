@@ -27,9 +27,12 @@ const Ready = () => {
           style={{
             textAlign: "center",
             marginBottom: window.innerWidth > 900 && "50px",
+            color: "#0A5FE0",
+            fontFamily: "'Montserrat', sans-serif",
+            fontWeight: 600,
           }}
         >
-          Move4it potencia a todo tu equipo
+          Move4IA potencia a todo tu equipo
         </Title>
       </Col>
       <Col xs={24} lg={12} xl={12} style={{ textAlign: "center" }}>

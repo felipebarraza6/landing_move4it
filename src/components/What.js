@@ -13,8 +13,8 @@ const What = () => {
       style={{ padding: "50px", zIndex: "0" }}
     >
       <Col>
-        <Title style={{ textAlign: "center", marginBottom: "50px" }}>
-          Ellos ya vivieron la experiencia Move4it
+        <Title style={{ textAlign: "center", marginBottom: "50px", color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>
+          Ellos ya vivieron la experiencia Move4IA
         </Title>
       </Col>
       <Col span={24}>
