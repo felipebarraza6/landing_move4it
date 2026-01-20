@@ -1,49 +1,62 @@
-import React from "react";
-import { Row, Col, Card, Typography } from "antd";
+import React, { useEffect, useState } from "react";
+import { Row, Col, Card, Typography, Spin } from "antd";
 import { SearchOutlined, AimOutlined } from "@ant-design/icons";
+import ContentService from "../services/content.service";
 
 const { Title, Paragraph } = Typography;
 
 const Who = () => {
+  const [content, setContent] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    ContentService.getWhoContent().then((response) => {
+      setContent(response.data);
+      setLoading(false);
+    });
+  }, []);
+
+  if (loading) {
+    return (
+      <Row justify="center" style={{ padding: "100px" }}>
+        <Spin size="large" />
+      </Row>
+    );
+  }
+
   return (
     <Row
       className="section-fade-in"
-      justify={"space-evenly"}
-      align={"middle"}
+      justify="space-evenly"
+      align="middle"
       style={{
-        padding: window.innerWidth > 900 ? "70px" : "20px",
-        marginBottom: window.innerWidth < 900 && "70px",
+        padding: "50px 20px", // Simplified padding
       }}
     >
-      <Col
-        xs={24}
-        lg={7}
-        xl={7}
-        style={{ marginRight: window.innerWidth > 900 && "20px" }}
-      >
-        <Title style={{ textAlign: "center", color: "#0A5FE0", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>¿Qué es Move4IA?</Title>
+      <Col xs={24} lg={7} xl={7} style={{ marginBottom: "30px" }}>
+        <Title
+          style={{
+            textAlign: "center",
+            color: "#0A5FE0",
+            fontFamily: "'Montserrat', sans-serif",
+            fontWeight: 600,
+          }}
+        >
+          ¿Qué es Move4IA?
+        </Title>
 
         <Paragraph
           style={{
             textAlign: "justify",
-            paddingLeft: "0px",
-            paddingRight: "0px",
             textIndent: "20px",
           }}
         >
-          Somos la revolución del bienestar laboral, un programa interactivo e
-          innovador diseñado para impulsar la salud, la conexión y el
-          rendimiento dentro de tu equipo. Con desafíos emocionantes,
-          asesoriamiento experto y una comunidad activa, Move4it va más allá de
-          la salud física.
+          {content?.description}
         </Paragraph>
       </Col>
       <Col xs={24} lg={16} xl={16}>
-        <Row
-          align={"middle"}
-          justify={window.innerWidth > 900 ? "space-between" : "center"}
-        >
-          <Col lg={12} xl={12}>
+        <Row gutter={[16, 16]} align="middle" justify="center">
+          <Col xs={24} lg={12} xl={12}>
             <Card
               title={
                 <>
@@ -52,8 +65,7 @@ const Who = () => {
                 </>
               }
               style={{
-                width: window.innerWidth > 900 ? "90%" : "300px",
-                margin: "10px",
+                width: "100%",
                 border: "1px solid rgba(10, 95, 224, 0.1)",
                 boxShadow: "0 4px 12px rgba(10, 95, 224, 0.08)",
                 borderRadius: "12px",
@@ -64,23 +76,21 @@ const Who = () => {
                   Visualizamos un mundo laboral donde cada individuo está
                   inspirado a moverse, a vivir de forma activa y saludable.
                   Queremos ser la fuerza motriz detrás de un cambio
-                  significativo en las empresas
+                  significativo en las empresas.
                 </Col>
               </Row>
             </Card>
           </Col>
-          <Col lg={12} xl={12}>
+          <Col xs={24} lg={12} xl={12}>
             <Card
               title={
                 <>
                   <AimOutlined style={{ marginRight: "10px" }} />
-                  Mision
+                  Misión
                 </>
               }
               style={{
-                marginTop: window.innerWidth > 900 ? "0px" : "30px",
-                width: window.innerWidth > 900 ? "90%" : "300px",
-                margin: "10px",
+                width: "100%",
                 border: "1px solid rgba(10, 95, 224, 0.1)",
                 boxShadow: "0 4px 12px rgba(10, 95, 224, 0.08)",
                 borderRadius: "12px",

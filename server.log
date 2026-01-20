@@ -1,0 +1,429 @@
+
+> ui_moveit@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:3230) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:3230) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+
+Compiled with warnings.
+
+[eslint]
+src/components/Contact.js
+  Line 12:13:   <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+  Line 156:13:  <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint]
+src/components/Contact.js
+  Line 12:13:   <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+  Line 156:13:  <iframe> elements must have a unique title property  jsx-a11y/iframe-has-title
+
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint]
+src/components/Footer.js
+  Line 2:32:   'Card' is defined but never used            no-unused-vars
+  Line 2:38:   'Button' is defined but never used          no-unused-vars
+  Line 10:20:  'Title' is assigned a value but never used  no-unused-vars
+
+src/components/Problems.js
+  Line 2:20:  'Card' is defined but never used                       no-unused-vars
+  Line 2:38:  'Carousel' is defined but never used                   no-unused-vars
+  Line 2:48:  'Tag' is defined but never used                        no-unused-vars
+  Line 2:53:  'Button' is defined but never used                     no-unused-vars
+  Line 7:3:   'EditOutlined' is defined but never used               no-unused-vars
+  Line 9:22:  'Link' is defined but never used                       no-unused-vars
+  Line 12:9:  'src' is assigned a value but never used               no-unused-vars
+  Line 22:9:  'scrollWithOffset' is assigned a value but never used  no-unused-vars
+
+src/components/Ready.js
+  Line 8:16:  'Paragraph' is assigned a value but never used  no-unused-vars
+  Line 11:9:  'src' is assigned a value but never used        no-unused-vars
+
+src/components/Sliders.js
+  Line 3:10:  'PlayCircleOutlined' is defined but never used  no-unused-vars
+
+src/components/What.js
+  Line 46:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:29:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 122:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 160:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 199:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 247:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 289:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 327:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 365:29:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 404:31:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 452:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 490:27:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/nav/MenuNav.js
+  Line 2:51:  'Burge' is defined but never used              no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src/containers/Home.js
+  Line 14:8:  'What' is defined but never used  no-unused-vars
+
+src/services/contact.service.js
+  Line 1:8:  'api' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
